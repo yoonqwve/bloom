@@ -1,0 +1,49 @@
+footer{
+    background-color: #D5C6E1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 80px;
+}
+
+.footerr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-direction: column;
+}
+
+.line{
+    width: 1300px;
+    border: 0.5px solid black;
+    border-radius: 10px;
+}
+
+.prava p{
+    color: black;
+    font-family: "gs";
+    font-size: 20px;
+}
+
+.logo img{
+    width: 153px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-direction: row;
+}
+
+nav a{
+    color: black;
+    font-family: "gs";
+    font-size: 20px;
+}
+
+nav a:hover{
+    color: #8058A1;
+}

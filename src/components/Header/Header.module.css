@@ -1,0 +1,41 @@
+header{
+    padding: 20px;
+    background-color: #D5C6E1;
+    flex-direction: row;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo img{
+    width: 153px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-direction: row;
+}
+
+nav a{
+    color: black;
+    font-family: "gs";
+    font-size: 20px;
+}
+
+nav a:hover{
+    color: #8058A1;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    flex-direction: row;
+}

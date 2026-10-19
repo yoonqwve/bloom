@@ -1,0 +1,83 @@
+.podpiska{
+    background-color: #EEE6F3;
+    border-radius: 20px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.podpiskatext{
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    flex-direction: column;
+}
+
+.podpiskazagl p{
+    color: black;
+    font-family: "gb";
+    font-size: 30px;
+}
+
+.podpiskapodzagl p{
+    color: black;
+    font-family: "gs";
+    font-size: 20px;
+    width: 530px;
+}
+
+.podpiskaforma form{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-direction: row;
+}
+
+.podpiskaforma form input{
+    display: flex;
+    padding: 20px;
+    align-items: flex-start;
+    border: 1px solid #8058A1;
+    border-radius: 10px;
+    width: 420px;
+    height: 58px;
+    color: #8058A1;
+    font-size: 20px;
+    font-family: "gs";
+}
+
+.podpiskaforma form input::placeholder{
+    color: #9B8DA8;
+    font-family: "gs";
+    font-size: 15px;
+}
+
+.podpiskaforma form button {
+    background-color: #8058A1;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 58px;
+    width: 161px;
+    color: #F8E9A4;
+    font-size: 20px;
+    font-family: "gb";
+    outline: none;
+    cursor: pointer;
+}
+
+.podpiskaforma form button:hover{
+    background-color: #F8E9A4;
+    color: #8058A1;
+}
+
+input:focus,
+button:focus {
+    outline: none;
+    box-shadow: none;
+}

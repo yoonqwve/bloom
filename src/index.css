@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "gb";
+    src: url('../src/assets/fonts/Gilroy-Bold.ttf');
+}
+
+@font-face {
+    font-family: "n";
+    src: url('../src/assets/fonts/NauryzRedKeds.ttf');
+}
+
+@font-face {
+    font-family: "gs";
+    src: url('../src/assets/fonts/Gilroy-Semibold.ttf');
+}
+
+*{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    transition: 0.5s;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F5F5F5;
+}
+
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.container2{
+    width: 100%;
+    margin: 0 auto;
+}

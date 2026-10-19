@@ -1,0 +1,71 @@
+.osnovabanner{
+    background-color: #EEE6F3;
+    border-radius: 20px;
+    width: 100%;
+    height: 571px;
+    padding: 40px;
+    gap: 40px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    margin-top: 60px;
+}
+
+.bannerphoto img{
+    width: 690px;
+    border-radius: 20px;
+}
+
+.bannercontent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 491px;
+    align-items: flex-start;
+}
+
+.zagl p{
+    color: black;
+    font-family: "n";
+    font-size: 60px;
+    width: 485px;
+    line-height: 100px;
+}
+
+.niz{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.podzagl p{
+    font-family: "gs";
+    font-size: 20px;
+    color: black;
+    width: 435px;
+}
+
+.bannerknop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 489px;
+    height: 45px;
+    background-color: #8058A1;
+    border-radius: 10px;
+}
+
+.bannerknop a{
+    color: #F8E9A4;
+    font-family: "gs";
+    font-size: 20px;
+}
+
+.bannerknop:hover{
+    background-color: #F8E9A4;
+}
+
+.bannerknop:hover a{
+    color: #8058A1;
+}
